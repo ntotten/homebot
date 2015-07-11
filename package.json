@@ -5,9 +5,14 @@
   "author": "Nathan Totten <ntotten@auth0.com>",
   "description": "A home control bot",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./bin/www"
   },
   "dependencies": {
+    "alexa-app": "^2.1.0",
+    "babel": "^5.6.14",
+    "body-parser": "^1.13.2",
+    "debug": "^2.2.0",
+    "express": "^4.13.1",
     "hubot": "^2.13.2",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
@@ -20,7 +25,8 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0"
+    "hubot-slack": "^3.3.0",
+    "morgan": "^1.6.1"
   },
   "engines": {
     "node": "0.10.x"

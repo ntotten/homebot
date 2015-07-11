@@ -1,4 +1,3 @@
-require('babel/register');
 import express from 'express';
 import logger from 'morgan';
 import bodyParser from 'body-parser';
@@ -8,6 +7,6 @@ var app = express();
 app.use(bodyParser.json());
 app.use(logger('dev'));
 
-app.express(homebot, '/echo/', false);
+homebot.express(app, '/echo/', false);
 
 export default app;
