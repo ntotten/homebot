@@ -4,6 +4,9 @@
   "private": true,
   "author": "Nathan Totten <ntotten@auth0.com>",
   "description": "A home control bot",
+  "scripts": {
+    "start": "node ./bin/www",
+  },
   "dependencies": {
     "hubot": "^2.13.2",
     "hubot-diagnostics": "0.0.1",
